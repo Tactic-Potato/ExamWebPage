@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'MarketingScript';
+    src: url('fonts/MarketingScript.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-VariableFont_wght.ttf')  format('truetype');
+}
+h2 {
+    font-family: 'MarketingScript';
+    font-size: 3.3rem;
+    color: #201713;
+    margin-top: 1rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.4rem;
+    text-align: center;
+    color: #337044;
+    font-weight: bold;
+    letter-spacing: 0.2em; 
+    line-height: 3rem;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+    background-color: #f5f1e5;
+    font-family: 'Raleway';
+}
+.imgHeader image{
+    border: 0;
+    overflow-clip-margin: content-box;
+}
+.imgHeader{
+    text-align: center;
+}
+#tgm{
+    height: 30rem;
+}
+#imageSlide{
+    height: auto;
+    width: 90%;
+}
+#main{
+    box-sizing: border-box;
+    width: auto;
+    margin: auto;
+    max-width: 100rem;
+    padding: 2rem 3.4rem;
+}
+
+.service-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.service-section a{
+    font-size: 1.5rem;
+    color: #3d6438;
+    text-decoration: none;
+}
+.service-section p{
+    font-size: 1.5rem;
+    color: #3d6438;
+}
+
+.column {
+    width: 45%; 
+}
+
+.location, .logo, .michelin {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.btn1 {
+    background-color: #f5f1e5;
+    border-color: #3d6438;
+    border-style: solid;
+    border: solid 0.1rem;
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    color: #3d6438;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+.btn1:hover{
+    background-color: #3d6438;
+    color: #f5f1e5;
+    pointer-events: stroke;
+}
+
+#TGMimage{
+    width: 20rem;                   
+    height: 8rem;
+    margin: 10px 0;
+}
+
+#michellin{
+    width: 10rem;                  
+    height: 10rem;
+    margin: 10px 0;
+}
+
+.baquito{
+    text-align: center;
+}
+#barco{
+    width: 45rem;
+    height: 23rem;
+}
+.contact{
+    text-align: center;
+
+}
+#btn2{
+    font-family: 'Raleway';
+    background-color: #337044;
+    color: #fff;
+    border: none;
+    border-radius: 3rem;
+    padding: 1.3rem 2.6rem;
+}
+#btn2:hover{
+    background-color: #438857;
+    cursor: pointer;
+}
+.video{    
+    padding: 1.7rem;
+}
+
+.imageFooter{
+    font-size: 1.1rem;
+}
+.description {
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.video iframe{
+    width: 90rem; 
+    height:50rem;
+}
+
+.story-section {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.gallery-image {
+    width: 48%;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    gap: 1.5rem;
+}
+
+.social-icon {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+#join-list {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: black;
+}
+.footerimages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin: 4rem auto;
+    max-width: 70%;
+    justify-items: center; 
+    align-items: center;
+}
+
+.logo-item img {
+    max-width: 40rem; 
+    object-fit: contain; 
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 1024px) {
+    .footerimages {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .footerimages {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
